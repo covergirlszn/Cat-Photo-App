@@ -10,3 +10,5 @@ don't forget to image src = "nunya bloodclaart" etc
 you also need to look at what a tag element and  attribute are
 
 must i write everything on the same line?? ew
+
+target = _blank means new tab btw
