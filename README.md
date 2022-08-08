@@ -75,3 +75,6 @@ you don't need to set value to required or check, just write the word and now th
 FINAL POINTS
 <html lang="en"> for accessibility
 and ALWAYS START YUH CODE WITH <!DOCTYPE html>
+
+todo
+read throught this
