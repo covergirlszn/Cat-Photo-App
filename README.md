@@ -12,3 +12,12 @@ you also need to look at what a tag element and  attribute are
 must i write everything on the same line?? ew
 
 target = _blank means new tab btw
+
+lil fyi for html
+
+
+            por ejemplo - bratzdoll object
+            bratzDoll Sasha = new BratzDoll (17)
+                vs html
+            <bratzDoll age="17"> Sasha </bratzDoll>
+            the age is the attribute, but the value is 17, and the element is bratzDoll
