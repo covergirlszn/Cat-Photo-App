@@ -10,13 +10,13 @@
 </head>
     <h1>CatPhotoApp</h1>
     <h2>Cat Photos</h2>
-      <!-- TODO: Add link to cat photos --><!--target blank opens a new tab btw instead of leaving -->
+      <!--target blank opens a new tab btw instead of leaving -->
         Click here to view more 
             <a target="_blank"        
             href="https://freecatphotoapp.com">cat photos</a>.
         
             <a href="https://freecatphotoapp.com">
-            <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+            <br><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
       </section>
       <section>
         <h2>Cat Lists</h2>
@@ -49,17 +49,29 @@
          For example, <form action='/submit-url'></form> 
          tells the browser that the form data should be sent to the path /submit-url."
      action="https://freecatphotoapp.com/submit-cat-photo">     <!--okay so action shows where the data needs to be sent,,-->
-
-     <input type="radio" title="THIS IS SO IMPORTANT BUTTONS ARE NOT INPUT BUT INPUT CAN BE USED AS BUTTON
-     BECAUSE YOU ARE INPUTTING A CHOICE, YOU ARE CHOOSING SMT HERE SO IT'S INPUT, NOT BUTTON,,, EVEN THOUGH 
-     THE "id="indoor" name="indoor-outdoor">Indoor
-     <!--so yeah for buttons where a value will be sent to action, use input,,, and wrap it in a label to
-    make it easier to click-->
-    <label><input id="outdoor" type="radio" name="indoor-outdoor">Outdoor</label>
-    <!--so id is needed to identify htmelements, get it?, no but it's not name because name is variable
-    so this means that the name value is selected, putting the names as same makes it so you can choose multiple at once
+<fieldset>
+<!--so fieldset is a block element and it groups all the form stuff together. kinda like making a selection box-->
+<legend>Is your cat an indoor or outdoor cat?</legend>
+<!--this describes your selection box-->
+        <label> <input type="radio" title="THIS IS SO IMPORTANT BUTTONS ARE NOT INPUT BUT INPUT CAN BE USED AS BUTTON
+         BECAUSE YOU ARE INPUTTING A CHOICE, YOU ARE CHOOSING SMT HERE SO IT'S INPUT, NOT BUTTON,,, EVEN THOUGH
+         THE "id="indoor" name="indoor-outdoor">Indoor</label>
+         <!--so yeah for buttons where a value will be sent to action, use input,,, and wrap it in a label to
+        make it easier to click-->
+        <label><input id="outdoor" type="radio" name="indoor-outdoor">Outdoor</label>
+        <!--so id is needed to identify htmelements, get it?, no but it's not name because name is variable
+        so this means that the name value is selected, putting the names as same makes it so you can choose multiple at once
     
-    -->
+        -->
+</fieldset>
+<fieldset>
+    
+    <legend>What's your cat's personality?</legend>
+    <input id="loving" type="checkbox" name="personality"> 
+    <label for="loving">Loving</label>
+    <!--instead of doing a nested label, you can say label is for and insert id,,, no idea why that is preferred tho
+    maybe i should read-->
+</fieldset>
 
         <input title="to input stuff hehe" type="text" name="catphotourl">
         <!--okay so tags, attributes, elements and stuff. 

@@ -64,3 +64,6 @@ but in a radio select, you select the button,
 click submit and the selected radio button? the values and data regarding it will be sent to the  action page
 
 as in, thats why the names have to be the same, so that when you click submit, then that variable,, aka name will be sent with the associated value
+
+CHECKBOXES
+here you can select multiple to help you, but it's an input still because data is being transferred to the action section ygm
