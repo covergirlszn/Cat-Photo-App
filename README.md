@@ -37,3 +37,22 @@ name= the name of the value being input so when the receiving page (see url in a
 placeholder: your standard insert text here type thing
 
 required: this ensures the user can't leave the input sector blank, very useful for emails and contact stuff
+
+also for the input name, the name allows the given data to be accessed by the action location
+        i think it's like creating a variable and using that variable when data is entered
+    
+  button without any attributes will just send the given form info to the action URL
+            but if you want to be extra, you can say type="submit so it submits ygm"
+        inline vs block, self explanatory
+        
+radio buttons are for choosing one option ,, i think checkboxes are for multiple but idk
+
+8.8.22
+INPUT ELEMENTS ARE SELF CLOSING LIKE IMG TAGS I THINK
+
+THIS IS SO IMPORTANT BUTTONS ARE NOT INPUT BUT INPUT CAN BE USED AS BUTTON
+     BECAUSE YOU ARE INPUTTING A CHOICE, YOU ARE CHOOSING SMT HERE SO IT'S INPUT, NOT BUTTON,,, EVEN THOUGH 
+     THE
+     
+     so yeah for buttons where a value will be sent to action, use input,,, and wrap it in a label to
+    make it easier to click-
