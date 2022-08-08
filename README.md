@@ -67,3 +67,5 @@ as in, thats why the names have to be the same, so that when you click submit, t
 
 CHECKBOXES
 here you can select multiple to help you, but it's an input still because data is being transferred to the action section ygm
+
+the name value attribut pair works here too, but i don't think it matters if the name is the same, you can still select multiple
