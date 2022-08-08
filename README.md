@@ -56,3 +56,11 @@ THIS IS SO IMPORTANT BUTTONS ARE NOT INPUT BUT INPUT CAN BE USED AS BUTTON
      
      so yeah for buttons where a value will be sent to action, use input,,, and wrap it in a label to
     make it easier to click-
+
+
+regarding names, values and id
+id is like the individual identity of the html element, not specific to forms, 
+but in a radio select, you select the button, 
+click submit and the selected radio button? the values and data regarding it will be sent to the  action page
+
+as in, thats why the names have to be the same, so that when you click submit, then that variable,, aka name will be sent with the associated value
