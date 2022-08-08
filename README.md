@@ -14,10 +14,26 @@ must i write everything on the same line?? ew
 target = _blank means new tab btw
 
 lil fyi for html
+<!--okay so tags, attributes, elements and stuff. 
+        
+            from my understanding an element is your standard tag thing. an attribute is the attribute of the tag
+            aka the element
+            the attribute has a value.
 
+            so it's a bit like in OOP, you have your object (element)
+            then the object has states and methods.
+            the states would be the attributes and then those states have values
 
             por ejemplo - bratzdoll object
             bratzDoll Sasha = new BratzDoll (17)
                 vs html
             <bratzDoll age="17"> Sasha </bratzDoll>
             the age is the attribute, but the value is 17, and the element is bratzDoll
+        -->
+
+AND THEN various attributes regarding input
+
+name= the name of the value being input so when the receiving page (see url in action) needs to view the value it can call it by name
+placeholder: your standard insert text here type thing
+
+required: this ensures the user can't leave the input sector blank, very useful for emails and contact stuff
