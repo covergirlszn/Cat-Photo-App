@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <!--just pressed exclamation mark and got the full set up for a basic html doc, 
     i really love VSCode <333 -->
-<html lang="en">
+<html lang="en"> <!--accessibility!-->
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8"> 
+<!--so the meta charset allows people to use their native language and translate the page-->
+
+   <!---- <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+
     <title>Cat Photo App</title>
 </head>
     <h1>CatPhotoApp</h1>
@@ -53,7 +56,7 @@
 <!--so fieldset is a block element and it groups all the form stuff together. kinda like making a selection box-->
 <legend>Is your cat an indoor or outdoor cat?</legend>
 <!--this describes your selection box-->
-        <label> <input type="radio" title="THIS IS SO IMPORTANT BUTTONS ARE NOT INPUT BUT INPUT CAN BE USED AS BUTTON
+        <label> <input type="radio" checked title="THIS IS SO IMPORTANT BUTTONS ARE NOT INPUT BUT INPUT CAN BE USED AS BUTTON
          BECAUSE YOU ARE INPUTTING A CHOICE, YOU ARE CHOOSING SMT HERE SO IT'S INPUT, NOT BUTTON,,, EVEN THOUGH
          THE "id="indoor" name="indoor-outdoor">Indoor</label>
          <!--so yeah for buttons where a value will be sent to action, use input,,, and wrap it in a label to
@@ -67,7 +70,7 @@
 <fieldset>
     
     <legend>What's your cat's personality?</legend>
-    <input id="loving" type="checkbox" name="personality"> 
+    <input id="loving" type="checkbox" name="personality" checked> 
     <label for="loving">Loving</label>
     <!--instead of doing a nested label, you can say label is for and insert id,,, no idea why that is preferred tho
     maybe i should read-->
@@ -75,7 +78,7 @@
         <!--label for so and so!! and dont forget to specifc the type of inputxx-->>
 </fieldset>
 
-        <input title="to input stuff hehe" type="text" name="catphotourl">
+        <input title="to input stuff hehe" placeholder="cat photo url" type="text" name="catphotourl">
         <!--okay so tags, attributes, elements and stuff. 
         
             from my understanding an element is your standard tag thing. an attribute is the attribute of the tag
@@ -96,7 +99,11 @@
 
     </section>
       </main>
-
+      <footer>
+        <p>
+            No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>          
+        </p>
+      </footer>
 
     </body>
   </html>

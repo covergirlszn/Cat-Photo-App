@@ -69,3 +69,9 @@ CHECKBOXES
 here you can select multiple to help you, but it's an input still because data is being transferred to the action section ygm
 
 the name value attribut pair works here too, but i don't think it matters if the name is the same, you can still select multiple
+
+you don't need to set value to required or check, just write the word and now the form is made
+
+FINAL POINTS
+<html lang="en"> for accessibility
+and ALWAYS START YUH CODE WITH <!DOCTYPE html>
